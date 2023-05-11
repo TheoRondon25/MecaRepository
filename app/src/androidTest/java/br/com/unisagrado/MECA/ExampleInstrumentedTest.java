@@ -1,4 +1,4 @@
-package br.com.unisagrado.appmfc;
+package br.com.unisagrado.MECA;
 
 import android.content.Context;
 

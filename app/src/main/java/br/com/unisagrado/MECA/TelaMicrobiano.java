@@ -1,4 +1,4 @@
-package br.com.unisagrado.appmfc;
+package br.com.unisagrado.MECA;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,17 +6,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class TelaFuncoesPele extends AppCompatActivity {
+public class TelaMicrobiano extends AppCompatActivity {
 
-    ImageView botaoVoltarFuncoes;
+    ImageView botaoVoltarMicro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tela_funcoes_pele);
-        botaoVoltarFuncoes = (ImageView) findViewById(R.id.btnVoltarFuncoes);
+        setContentView(R.layout.activity_tela_microbiano);
+        botaoVoltarMicro = (ImageView) findViewById(R.id.btnVoltarMicrobiano);
 
-        botaoVoltarFuncoes.setOnClickListener(new View.OnClickListener() {
+        botaoVoltarMicro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();

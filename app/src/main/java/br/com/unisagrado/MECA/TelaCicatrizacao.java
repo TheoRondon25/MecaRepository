@@ -1,4 +1,4 @@
-package br.com.unisagrado.appmfc;
+package br.com.unisagrado.MECA;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,17 +6,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class TelaFaseProliferativa extends AppCompatActivity {
+public class TelaCicatrizacao extends AppCompatActivity {
 
-    ImageView botaoVoltarFProliferativa;
+    ImageView botaoVoltarCicat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tela_fase_proliferativa);
-        botaoVoltarFProliferativa = (ImageView) findViewById(R.id.btnVoltarFProliferativa);
+        setContentView(R.layout.activity_tela_cicatrizacao);
+        botaoVoltarCicat = (ImageView) findViewById(R.id.btnVoltarCicatrizacao);
 
-        botaoVoltarFProliferativa.setOnClickListener(new View.OnClickListener() {
+        botaoVoltarCicat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
@@ -24,5 +24,3 @@ public class TelaFaseProliferativa extends AppCompatActivity {
         });
     }
 }
-
-

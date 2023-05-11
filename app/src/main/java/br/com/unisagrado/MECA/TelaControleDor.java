@@ -1,4 +1,4 @@
-package br.com.unisagrado.appmfc;
+package br.com.unisagrado.MECA;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,17 +6,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class TelaCaracteristicas extends AppCompatActivity {
+public class TelaControleDor extends AppCompatActivity {
 
-    ImageView botaoVoltarCarac;
+    ImageView botaoVoltarControleDor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tela_caracteristicas);
-        botaoVoltarCarac = (ImageView) findViewById(R.id.btnVoltarCaracteristicas);
+        setContentView(R.layout.activity_tela_controle_dor);
+        botaoVoltarControleDor = (ImageView) findViewById(R.id.btnVoltarControleDor);
 
-        botaoVoltarCarac.setOnClickListener(new View.OnClickListener() {
+        botaoVoltarControleDor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();

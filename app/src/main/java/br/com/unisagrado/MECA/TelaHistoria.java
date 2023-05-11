@@ -1,4 +1,4 @@
-package br.com.unisagrado.appmfc;
+package br.com.unisagrado.MECA;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,17 +6,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class TelaEvolucao extends AppCompatActivity {
+public class TelaHistoria extends AppCompatActivity {
 
-    ImageView botaoVoltarEvolucao;
+    ImageView botaoVoltarHist;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tela_evolucao);
-        botaoVoltarEvolucao = (ImageView) findViewById(R.id.btnVoltarEvolucao);
+        setContentView(R.layout.activity_tela_historia);
+        botaoVoltarHist = (ImageView) findViewById(R.id.btnVoltarHist);
 
-        botaoVoltarEvolucao.setOnClickListener(new View.OnClickListener() {
+        botaoVoltarHist.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();

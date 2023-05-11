@@ -1,4 +1,4 @@
-package br.com.unisagrado.appmfc;
+package br.com.unisagrado.MECA;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,17 +6,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class TelaCicatrizacao extends AppCompatActivity {
+public class TelaFaseInflamatoria extends AppCompatActivity {
 
-    ImageView botaoVoltarCicat;
+    ImageView botaoVoltarInflam;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tela_cicatrizacao);
-        botaoVoltarCicat = (ImageView) findViewById(R.id.btnVoltarCicatrizacao);
+        setContentView(R.layout.activity_tela_fase_inflamatoria);
+        botaoVoltarInflam = (ImageView) findViewById(R.id.btnVoltarFInflamatoria);
 
-        botaoVoltarCicat.setOnClickListener(new View.OnClickListener() {
+        botaoVoltarInflam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
